@@ -1,7 +1,6 @@
 // Lista 04
-
 /* // Exercicio 01
-
+jabiroca
 #include <stdio.h>
 
 int dobro(int x){
