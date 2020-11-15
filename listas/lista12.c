@@ -8,6 +8,7 @@ int estaMaiusculo(char letra)
     return letra >= 'A' && letra <= 'Z';
 }
 
+// XD
 int numeroLetrasMaiusuculas(char texto[])
 {
     printf("%s", texto);

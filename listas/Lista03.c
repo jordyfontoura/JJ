@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// Fat
 int fat(int num)
 {
     int i, x = 1;

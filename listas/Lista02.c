@@ -7,7 +7,7 @@ float fmedia(int v1, int v2, int v3)
     x = (v1 + v2 + v3) / 3.0;
     return x;
 }
-
+// M
 int main()
 {
     int notas[3], i;
