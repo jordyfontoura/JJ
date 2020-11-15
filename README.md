@@ -6,7 +6,7 @@
 
 ### Tarefas
 
-- [ ] Faça um programa que leia três números inteiros e, para cada um, chame a função paracalcular e retornar o dobro. Ao retornar, imprima o valor do dobro na tela.
+- [x] Faça um programa que leia três números inteiros e, para cada um, chame a função paracalcular e retornar o dobro. Ao retornar, imprima o valor do dobro na tela.
 
 - [ ] Faça um programa que leia notas de três provas e logo após chame uma função que recebe asnotas e calcule e retorna a média. Imprimir a média.
 - [ ] Faça um programa que leia um número inteiro positivo e chame uma função que calcule ovalor do fatorial do número e retorne o valor. Imprima o valor de retorno da função. -[ ] Faça um programa que leia um número inteiro e chame uma função que verifique se onúmero é primo ou não.
