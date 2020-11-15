@@ -17,7 +17,6 @@ int main()
 {
     int numero;
     ler("Digite um número inteiro positivo:", &numero);
-    printf("Entrada: %d", numero);
     if (valorPerfeito(numero))
         print("O número é perfeito.");
     else
