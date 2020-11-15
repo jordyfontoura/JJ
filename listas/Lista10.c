@@ -16,9 +16,11 @@ int valorPerfeito(int valor)
 int main()
 {
     int numero;
-    ler("Digite um número inteiro positivo:", &numero);
+    printf("Digite um número inteiro positivo:");
+    scanf("%d", &numero);
+
     if (valorPerfeito(numero))
-        print("O número é perfeito.");
+        printf("O número é perfeito.");
     else
-        print("O número é imperfeito.");
+        printf("O número é imperfeito.");
 }
