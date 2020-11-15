@@ -7,7 +7,7 @@
 int dobro(int x){
   return x*2;
 }
-
+oqwfkqfpo
 int main(){
   int nun, i;
 
