@@ -12,13 +12,17 @@ int menorElemento(int elementos[], int tamanho){
     return menor;
 }
 int main(){
-    int vetor[50], tamanho, entrada;
-    printf("Digite um vetor de inteiros:\n");
+    // vetor[]={1,2,3} <<
+    int vetor[50], tamanho, entrada, menor;
+    printf("Digite o tamanho do vetor: ");
+    scanf("%d", &tamanho);
+    printf("Defina o vetor de inteiros:\n");
     for (int i = 0; i < tamanho; i++)
     {
         printf("vetor[%d] = ", i);
-        scanf("%d", entrada);
+        scanf("%d", &entrada);
         vetor[i] = entrada;
     }
-    
+    menor = menorElemento(vetor, tamanho);
+    printf("O menor elemento: %d", menor);
 }
