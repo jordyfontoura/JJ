@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "atalho.h"
 #define TAMANHO_MAXIMO 100
 #define verdadeiro 1
 #define falso 0

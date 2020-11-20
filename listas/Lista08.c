@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "atalho.h"
 #define TAMANHO_MAXIMO 100
 
 int produtoInterno(int vetor1[], int vetor2[], int tamanho){
@@ -14,21 +13,22 @@ int produtoInterno(int vetor1[], int vetor2[], int tamanho){
 
 int main(){
     int tamanho, vetor1[TAMANHO_MAXIMO], vetor2[TAMANHO_MAXIMO], entrada, resultado;
-    lerNumero("Digite o tamanho do vetor", &tamanho);
-    printar("Vetor 1:\n");
+    printf("Digite o tamanho do vetor");
+    scanf("%d", &tamanho);
+    printf("Vetor 1:\n");
     for (int i = 0; i < tamanho; i++)
     {
-        printar("Digite um o número[%d] do primeiro vetor: ", i);
-        ler("%d", &entrada);
+        printf("Digite um o número[%d] do primeiro vetor: ", i);
+        scanf("%d", &entrada);
         vetor1[i] = entrada;
     }
-    printar("Vetor 2:\n");
+    printf("Vetor 2:\n");
     for (int i = 0; i < tamanho; i++)
     {
-        printar("Digite um o número[%d] do primeiro vetor: ", i);
-        ler("%d", &entrada);
+        printf("Digite um o número[%d] do primeiro vetor: ", i);
+        scanf("%d", &entrada);
         vetor2[i] = entrada;
     }
     resultado = produtoInterno(vetor1, vetor2, tamanho);
-    printar("O produto interno: %d", resultado);
+    printf("O produto interno: %d", resultado);
 }

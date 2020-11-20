@@ -16,7 +16,7 @@ int main(){
     int tamanho;
     char entrada[TAMANHO_MAXIMO];
     printf("Digite uma mensagem:");
-    fgets(entrada, TAMANHO_MAXIMO, stdin);
+    gets(entrada);
     tamanho = tamanhoMensagem(entrada) - 1; // -1 por conta do caracter LF (10 ASCII <=> break line) que é lido
     printf("O tamanho da mensagem: %d", tamanho);
 }
