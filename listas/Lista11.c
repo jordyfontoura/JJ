@@ -8,11 +8,11 @@
 int main(){
     int resultado = 0, vetor[TAMANHO_MAXIMO], entrada, k = 0;
     #pragma region Leitura
-    printar("Digite um vetor:\n");
-    printar("Digite \"-1\" para terminar.\n");
+    printf("Digite um vetor:\n");
+    printf("Digite \"-1\" para terminar.\n");
     while(verdadeiro)
     {
-        printar("Digite o número[%d]: ", k);
+        printf("Digite o número[%d]: ", k);
         ler("%d", &entrada);
         if (entrada == -1)
             break;
@@ -25,5 +25,5 @@ int main(){
         resultado += vetor[i];
     }
     #pragma endregion
-    printar("Resultado: %d", resultado);
+    printf("Resultado: %d", resultado);
 }

@@ -18,16 +18,16 @@ int somaInterna(int vetor[], int tamanho){
 int main(){
     int vetor[TAMANHO_MAXIMO], entrada, tamanho, resultado;
     #pragma region Leitura
-    printar("Digite o tamanho do vetor: ");
-    ler("%d", &tamanho);
-    printar("Digite um vetor:\n");
+    printf("Digite o tamanho do vetor: ");
+    scanf("%d", &tamanho);
+    printf("Digite um vetor:\n");
     for (int i = 0; i < tamanho; i++)
     {
-        printar("Digite o número[%d]: ", i);
-        ler("%d", &entrada);
+        printf("Digite o número[%d]: ", i);
+        scanf("%d", &entrada);
         vetor[i] = entrada;
     }
     #pragma endregion
     resultado = somaInterna(vetor, tamanho);
-    printar("Resultado: %d", resultado);
+    printf("Resultado: %d", resultado);
 }

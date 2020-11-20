@@ -24,6 +24,7 @@ int main()
 {
     int resultado;
     char entrada[50];
+    printf("Digite uma mensagem:");
     fgets(entrada, 50, stdin);
     resultado = numeroLetrasMaiusuculas(entrada);
     printf("O texto tem %d letras maiusculas.", resultado);
