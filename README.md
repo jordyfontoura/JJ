@@ -8,4 +8,4 @@
 
 - [x] 1. Lista 4 - Funções
 
-- [] 2. Lista 5 - Estruturas, Ponteiros e Arquivos
+- [ ] 2. Lista 5 - Estruturas, Ponteiros e Arquivos
