@@ -36,7 +36,7 @@ int paresVetor(int* vet, int n, int *impar){
 }
 
 int main(){
-	int i, *vetor, tamanho = 5, npares, nimpares=0;
+	int i, *vetor, tamanho = 20, npares, nimpares=0;
 
 	for(i=0;i<5;i++) // Mudar para leitura do teclado
 		vetor[i] = i;
@@ -45,7 +45,7 @@ int main(){
 	npares = paresVetor(vetor, tamanho, &nimpares);
 
 	for(i=0;i<tamanho;i++){
-		printf("%d, ", vetor[i]);
+		scanf("%d", &vetor[i]);
 	}
 
 	printf("\n\n");
